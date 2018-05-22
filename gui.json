@@ -1,0 +1,107 @@
+[
+	[
+		[
+			"self.menubar",
+			{
+				"Name": "File",
+				"Tear": 0,
+				"New": 1,
+				"Object":
+				[
+					"New"
+				],
+				"Command":
+				[
+					"NewSim"
+				]
+			},
+			{
+				"Name": "Edit",
+				"Tear": 0,
+				"New": 1,
+				"Object":
+				[
+					"Undo",
+					"Redo"
+				],
+				"Command":
+				[
+					"Pass",
+					"Pass"
+				]
+			},
+			{
+				"Name": "Control",
+				"Tear": 1,
+				"New": 1,
+				"Object":
+				[
+					"Play",
+					"Reset",
+					"New Object",
+					"Settings"
+				],
+				"Command":
+				[
+					"ToggleRun",
+					"Pass",
+					"Pass",
+					"Pass"
+				]
+			},
+			{
+				"Name": "Help",
+				"Tear": 0,
+				"New": 1,
+				"Object":
+				[
+					"Controls",
+					"About"
+				],
+				"Command":
+				[
+					"Pass",
+					"Pass"
+				]
+			}
+		],
+		[
+			"File",
+			{
+				"Name": "Load",
+				"Tear": 0,
+				"New": 1,
+				"Object": [],
+				"Command": []
+			}
+		],
+		[
+			"self.menubar",
+			{
+				"Name": "File",
+				"Tear": 0,
+				"New": 0,
+				"Object":
+				[
+					"Save",
+					"Save as",
+					"Exit"
+				],
+				"Command":
+				[
+					"Pass",
+					"Pass",
+					"self.root.quit"
+				]
+			}
+		]
+	],
+	[
+		[
+			"File"
+		],
+		[
+		
+		]
+	]
+]
